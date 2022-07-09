@@ -1,0 +1,16 @@
+{
+  "name": "conflicter",
+  "description": "3 way merge tool",
+  "author": {
+    "name": "Ilya Mikhalin",
+    "email": "thebear@yandex.ru",
+    "url": "https://github.com/ultimabear"
+  },
+  "main": "./dist/main/main.js",
+  "scripts": {
+    "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "postinstall": "npm run electron-rebuild && npm run link-modules",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,24 @@
+.app {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.editor-outer {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.editor-outer_width33 {
+  width: 33.333%;
+}
+
+.editor-inner {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}

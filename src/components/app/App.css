@@ -1,0 +1,14 @@
+body {
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  font-family: sans-serif;
+  color: black;
+  background: white;
+}
+
+#root {
+  height: 100%;
+}
